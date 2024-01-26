@@ -1,0 +1,16 @@
+.maps {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.naruto-run > img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 2rem;
+}
