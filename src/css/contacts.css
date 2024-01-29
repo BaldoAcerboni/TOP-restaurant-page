@@ -14,3 +14,13 @@
   object-fit: cover;
   border-radius: 2rem;
 }
+
+@media screen and (max-width: 750px) {
+  .naruto-run > img {
+    width: 60%;
+  }
+
+  .maps > iframe {
+    height: 300px;
+  }
+}

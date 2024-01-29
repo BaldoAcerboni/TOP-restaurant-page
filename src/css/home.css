@@ -43,6 +43,10 @@ button {
   background: radial-gradient(rgb(20, 20, 20), rgb(130, 130, 130));
 }
 
+.nav-btn.current {
+  border: 5px solid rgb(255, 132, 0);
+}
+
 nav {
   display: flex;
   justify-content: space-evenly;
