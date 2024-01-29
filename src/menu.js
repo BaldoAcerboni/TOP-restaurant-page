@@ -1,3 +1,6 @@
+import dollar from "./images/dollar.svg";
+import question from "./images/question.svg";
+
 const content = document.getElementById("content");
 
 export function displayMenuSection() {
@@ -6,7 +9,7 @@ export function displayMenuSection() {
     <div>
       <img
         class="svg"
-        src="../src/images/question.svg"
+        src="${question}"
         alt="question image"
       />
     </div>
@@ -44,8 +47,8 @@ export function displayMenuSection() {
     <div>
       <img
         class="svg"
-        src="../src/images/dollar.svg"
-        alt="question image"
+        src="${dollar}"
+        alt="dollar image"
       />
     </div>
   </div>`;

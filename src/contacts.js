@@ -1,3 +1,4 @@
+import narutoRun from "./images/naruto-run.jpg";
 const content = document.getElementById("content");
 
 export function displayContactsSection() {
@@ -18,7 +19,7 @@ export function displayContactsSection() {
       </iframe>
     </div>
     <div class="naruto-run">
-      <img src="../src/images/naruto-run.jpg" alt="A naruto-running fellow" />
+      <img src="${narutoRun}" alt="A naruto-running fellow" />
     </div>`;
   } else return;
 }

@@ -1,3 +1,6 @@
+import kitchen from "./images/kitchen.jpg";
+import imagination from "./images/imagination.jpg";
+
 const content = document.getElementById("content");
 
 export function displayHomeSection() {
@@ -5,7 +8,7 @@ export function displayHomeSection() {
     content.innerHTML = `<div class="content-section">
     <div>
       <img
-        src="../src/images/kitchen.jpg"
+        src="${kitchen}"
         alt="fancy kitchen image"
         class="section-img"
       />
@@ -35,7 +38,7 @@ export function displayHomeSection() {
     </div>
     <div>
       <img
-        src="../src/images/imagination.jpg"
+        src="${imagination}"
         alt="imagination image"
         class="section-img"
       />
