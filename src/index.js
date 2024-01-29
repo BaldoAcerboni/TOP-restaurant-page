@@ -1,6 +1,13 @@
 import "./css/home.css";
 import "./css/menu.css";
 import "./css/contacts.css";
+
+import "./images/dollar.svg";
+import "./images/imagination.jpg";
+import "./images/kitchen.jpg";
+import "./images/naruto-run.jpg";
+import "./images/question.svg";
+
 import { displayHomeSection } from "./home";
 import { displayMenuSection } from "./menu";
 import { displayContactsSection } from "./contacts";
